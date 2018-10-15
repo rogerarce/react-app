@@ -1,0 +1,31 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.5.2",
+    "regenerator-runtime": "^0.12.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
