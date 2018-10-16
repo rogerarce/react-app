@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('mountapp') {
+        stage('test') {
             agent {
                 docker {
                     image 'rogerarce/nodedev:latest'
@@ -10,11 +10,7 @@ pipeline {
             }
             steps { 
                 sh 'yarn install'
-            }
-        }
-        stage('test') {
-            steps {
-                sh 'yarn install'
+                sh 'yarn test'
             }
         }
     }
