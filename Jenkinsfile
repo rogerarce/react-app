@@ -12,6 +12,11 @@ pipeline {
                 sh 'yarn install'
                 sh 'yarn test'
             }
+            posts {
+                always {
+                    junit 'output/coverage/junit/junit.xml'
+                }
+            }
         }
     }
 }
