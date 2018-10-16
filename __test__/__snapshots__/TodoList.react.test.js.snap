@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList component tests 1`] = `
+<ul>
+  <li>
+    Testing todo 1
+  </li>
+  <li>
+    Testing todo 2
+  </li>
+  <li>
+    Testing todo 3
+  </li>
+</ul>
+`;
