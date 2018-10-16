@@ -3,13 +3,13 @@
 exports[`TodoList component tests 1`] = `
 <ul>
   <li>
-    Testing todo 1
+    Todo app 1
   </li>
   <li>
-    Testing todo 2
+    Todo app 2
   </li>
   <li>
-    Testing todo 3
+    Todo app 3
   </li>
 </ul>
 `;
